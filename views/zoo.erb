@@ -1,0 +1,20 @@
+<h1>Welcome to the zoo!</h1>
+<hr />
+
+<div>
+	<h3>Animals In The Zoo</h3>
+	<ul>
+		<% @animals.each do |animal| %>
+			<li><%= animal %></li>
+		<% end %>
+	</ul>
+</div>
+
+<!-- Non Echoing ERB Tag -->
+<!-- Looping, Varibles creations, Conditionals-->
+<!-- <% name = 'Jake Sorce' %> -->
+
+
+<!-- Echoing ERB Tag-->
+<!-- Printing out Variables Values -->
+<%= @name %>
